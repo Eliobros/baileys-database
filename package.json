@@ -18,6 +18,14 @@
   "dependencies": {
     "dotenv": "^17.4.2"
   },
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/Eliobros/baileys-database.git"
+},
+"homepage": "https://github.com/Eliobros/baileys-database#readme",
+"bugs": {
+  "url": "https://github.com/Eliobros/baileys-database/issues"
+},
   "peerDependencies": {
     "@whiskeysockets/baileys": "*"
   },
