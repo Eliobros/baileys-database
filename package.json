@@ -1,0 +1,28 @@
+{
+  "name": "baileys-database",
+  "version": "1.0.0",
+  "description": "Adapter de persistência para Baileys usando MySQL ou MongoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "keywords": [
+    "baileys",
+    "whatsapp",
+    "mysql",
+    "mongodb",
+    "authstate"
+  ],
+  "author": "Habibo",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.4.2"
+  },
+  "peerDependencies": {
+    "@whiskeysockets/baileys": "*"
+  },
+  "optionalDependencies": {
+    "mysql2": "^3.0.0",
+    "mongodb": "^6.0.0"
+  }
+}
